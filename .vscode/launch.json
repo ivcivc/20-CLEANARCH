@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Main and Wire Gen",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${workspaceFolder}/cmd/ordersystem/main.go",
+      "args": ["${workspaceFolder}/cmd/ordersystem/wire_gen.go"],
+      "env": {},
+      "cwd": "${workspaceFolder}/cmd/ordersystem"
+    }
+  ]
+}
